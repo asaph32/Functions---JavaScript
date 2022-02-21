@@ -1,0 +1,22 @@
+function Celular(marcaCelular,tamanhoTela,capacidadeBateria) {
+    this.marcaCelular = marcaCelular,
+    this.tamanhoTela = tamanhoTela,
+    this.capacidadeBateria = capacidadeBateria,
+    this.ligar = function ()  {
+        console.log('Fazendo Ligaçao')
+    }
+}
+const celular = new Celular('Asus',5.5,5000);
+console.log(celular);
+function endereco(estado , cidade , rua , bairro , numeroDoDomicilio) {
+    this.estado = estado,
+    this.cidade = cidade,
+    this.rua = rua,
+    this.bairro = bairro,
+    this.numeroDoDomicilio = numeroDoDomicilio
+    this.cadastrar = function () {
+        console.log('Cadastrado com sucesso!!');
+    }
+}
+const endereco1 = new endereco('PI','Teresina','Antilhon Ribeiro Soares','Santa Isabel',5000);
+console.log(endereco1);
