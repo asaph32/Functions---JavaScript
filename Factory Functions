@@ -1,0 +1,12 @@
+function criarCelular(marcacelular,tamanhoTela,capacidadeBateria) {
+    return {
+        marcacelular,
+        tamanhoTela,
+        capacidadeBateria,
+        ligar() {
+            console.log("Fazendo ligaçao...")
+        }
+    }
+}
+const celular1 = criarCelular('Motorola',6.0,6000);
+console.log(celular1);
